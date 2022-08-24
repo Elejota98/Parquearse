@@ -1,0 +1,27 @@
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Modelo\bin\Debug\Modelo.dll
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Modelo\bin\Debug\Controlador.dll
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Modelo\bin\Debug\Variable.dll
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Modelo\bin\Debug\Controlador.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Modelo\bin\Debug\Variable.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Modelo\obj\Debug\Modelo.dll
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Modelo\bin\Debug\Modelo.dll
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Modelo\bin\Debug\Controlador.dll
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Modelo\bin\Debug\Variable.dll
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Modelo\bin\Debug\Controlador.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Modelo\bin\Debug\Variable.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Modelo\obj\Debug\Modelo.dll
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Modelo\obj\Debug\Modelo.pdb
+D:\PROYECTOS\LJ\Operaciones\Modelo\bin\Debug\Modelo.dll
+D:\PROYECTOS\LJ\Operaciones\Modelo\bin\Debug\Modelo.pdb
+D:\PROYECTOS\LJ\Operaciones\Modelo\bin\Debug\Controlador.dll
+D:\PROYECTOS\LJ\Operaciones\Modelo\bin\Debug\Variable.dll
+D:\PROYECTOS\LJ\Operaciones\Modelo\bin\Debug\Controlador.pdb
+D:\PROYECTOS\LJ\Operaciones\Modelo\bin\Debug\Variable.pdb
+D:\PROYECTOS\LJ\Operaciones\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\LJ\Operaciones\Modelo\obj\Debug\Modelo.dll
+D:\PROYECTOS\LJ\Operaciones\Modelo\obj\Debug\Modelo.pdb
