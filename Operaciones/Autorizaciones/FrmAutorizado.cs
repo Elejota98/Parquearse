@@ -23,6 +23,7 @@ namespace Operaciones.Autorizaciones
         public FrmAutorizado()
         {
             InitializeComponent();
+            ListarAutorizaciones();
         }
 
         private void FrmAutorizado_Load(object sender, EventArgs e)
@@ -47,7 +48,7 @@ namespace Operaciones.Autorizaciones
             }
             else
             {
-                DgvListado.DataSource = MAutorizado.BuscarAutorizado(TxtDocumento.Text, TxtPlaca1.Text, TxtPlaca2.Text);
+                DgvListado.DataSource = MAutorizado.BuscarAutorizado(TxtDocumento.Text.Trim(), TxtPlaca1.Text.Trim(), TxtPlaca2.Text.Trim());
                 if (DgvListado.Rows.Count < 1)
                 {
                     MessageBox.Show("No se encontraron datos del autorizado", "Parquearse Tecnología");
@@ -57,12 +58,30 @@ namespace Operaciones.Autorizaciones
                 else
                 {
                     DgvListado.DataSource = MAutorizado.BuscarAutorizado(TxtDocumento.Text, TxtPlaca1.Text, TxtPlaca2.Text);
-                    this.Formato();
+
                 }
             }
 
         }
         #endregion
+        public void ListarPersonasAutorizadas()
+        {
+            DgvListado.DataSource = MAutorizado.ListarPersonasAutorizadas();
+        }
+        private void ListarAutorizaciones()
+        {
+            try
+            {
+                cboAutorizaciones.DataSource = MAutorizado.ListarAutorizaciones();
+                cboAutorizaciones.ValueMember = "IdAutorizacion";
+                cboAutorizaciones.DisplayMember = "NombreAutorizacion";
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("No se pudo cargar los estacionamientos", ex.StackTrace);
+            }
+        }
 
 
         #region FormatoTabla
@@ -120,11 +139,6 @@ namespace Operaciones.Autorizaciones
 
         }
 
-        private void BtnBuscar_Click_1(object sender, EventArgs e)
-        {
-            BuscarAutorizado();
-        }
-
         private void BtnActualizar_Click_1(object sender, EventArgs e)
         {
             try
@@ -158,28 +172,7 @@ namespace Operaciones.Autorizaciones
 
         }
 
-        private void DgvListado_CellDoubleClick_1(object sender, DataGridViewCellEventArgs e)
-        {
-            PanelAutorizados.Visible = true;
-            TxtDocumentoP.Text = Convert.ToString(DgvListado.CurrentRow.Cells["Documento"].Value);
-            TxtNombresP.Text = Convert.ToString(DgvListado.CurrentRow.Cells["NombreApellidos"].Value);
-            TxtnombreEmpresa.Text = Convert.ToString(DgvListado.CurrentRow.Cells["NombreEmpresa"].Value);
-            TxtNit.Text = Convert.ToString(DgvListado.CurrentRow.Cells["Nit"].Value);
-            txtPlaca1p.Text = Convert.ToString(DgvListado.CurrentRow.Cells["Placa1"].Value);
-            DtmFechaInicio.Text = Convert.ToString(DgvListado.CurrentRow.Cells["FechaInicio"].Value);
-            DtmFechaFin.Text = Convert.ToString(DgvListado.CurrentRow.Cells["FechaFin"].Value);
-            txtPlaca2p.Text = Convert.ToString(DgvListado.CurrentRow.Cells["Placa2"].Value);
-            TxtPlaca3P.Text = Convert.ToString(DgvListado.CurrentRow.Cells["Placa3"].Value);
-            cboAutorizaciones.Text = Convert.ToString(DgvListado.CurrentRow.Cells["NombreAutorizacion"].Value);
-            ////TxtAutorizacionP.Text = Convert.ToString(DgvListado.CurrentRow.Cells["NombreAutorizacion"].Value);
-            TxtDocumentoP.Enabled = false;
-            //TxtNombresP.Enabled = false;
-            //TxtnombreEmpresa.Enabled = false;
-            //TxtNit.Enabled = false;
-            //TxtPlaca3P.Enabled = false;
-            ////DtmFechaInicio.Enabled = false;
-            ////TxtAutorizacionP.Enabled = false;
-        }
+
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
@@ -212,7 +205,7 @@ namespace Operaciones.Autorizaciones
             else if (TxtDocumento.Text != string.Empty || TxtNombresP.Text != string.Empty || TxtPlaca1.Text != string.Empty)
             {
                 string Rta = "";
-                Rta = MAutorizado.InsertarAutorizado(TxtDocumentoP.Text.Trim(), Convert.ToInt32(cboAutorizaciones.SelectedValue.ToString()), TxtNombresP.Text.Trim(), txtIdTarjeta.Text.Trim(), TxtnombreEmpresa.Text.Trim(), TxtNit.Text.Trim(), fechaactual.ToString(), this.DocumentoUsuario.ToString(), txtTelefono.Text.Trim(), txtCorreo.Text.Trim(), txtPlaca1p.Text.Trim(), TxtPlaca2.Text.Trim(), TxtPlaca3P.Text.Trim(), txtPlaca4.Text.Trim());
+                Rta = MAutorizado.InsertarAutorizado(TxtDocumentoP.Text.Trim(), Convert.ToInt32(cboAutorizaciones.SelectedValue.ToString()), TxtNombresP.Text.Trim(), txtIdTarjeta.Text.Trim(), TxtnombreEmpresa.Text.Trim(), TxtNit.Text.Trim(), fechaactual.ToString(), this.DocumentoUsuario.ToString(), txtTelefono.Text.Trim(), txtCorreo.Text.Trim(), txtPlaca1p.Text.Trim(), txtPlaca2p.Text.Trim(), TxtPlaca3P.Text.Trim(), txtPlaca4.Text.Trim());
                 if (Rta.Equals("OK"))
                 {
                     this.MensajeOk("Registro Guardado Correctamente");
@@ -315,7 +308,61 @@ namespace Operaciones.Autorizaciones
 
         private void BtnBuscar_Click_2(object sender, EventArgs e)
         {
+            BuscarAutorizado();
+        }
 
+        private void DgvListado_CellDoubleClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+            PanelAutorizados.Visible = true;
+            TxtDocumentoP.Text = Convert.ToString(DgvListado.CurrentRow.Cells["Documento"].Value);
+            TxtNombresP.Text = Convert.ToString(DgvListado.CurrentRow.Cells["NombreApellidos"].Value);
+            TxtnombreEmpresa.Text = Convert.ToString(DgvListado.CurrentRow.Cells["NombreEmpresa"].Value);
+            TxtNit.Text = Convert.ToString(DgvListado.CurrentRow.Cells["Nit"].Value);
+            txtPlaca1p.Text = Convert.ToString(DgvListado.CurrentRow.Cells["Placa1"].Value);
+            DtmFechaInicio.Text = Convert.ToString(DgvListado.CurrentRow.Cells["FechaInicio"].Value);
+            DtmFechaFin.Text = Convert.ToString(DgvListado.CurrentRow.Cells["FechaFin"].Value);
+            txtPlaca2p.Text = Convert.ToString(DgvListado.CurrentRow.Cells["Placa2"].Value);
+            TxtPlaca3P.Text = Convert.ToString(DgvListado.CurrentRow.Cells["Placa3"].Value);
+            cboAutorizaciones.Text = Convert.ToString(DgvListado.CurrentRow.Cells["NombreAutorizacion"].Value);
+            ////TxtAutorizacionP.Text = Convert.ToString(DgvListado.CurrentRow.Cells["NombreAutorizacion"].Value);
+            TxtDocumentoP.Enabled = false;
+            //TxtNombresP.Enabled = false;
+            //TxtnombreEmpresa.Enabled = false;
+            //TxtNit.Enabled = false;
+            //TxtPlaca3P.Enabled = false;
+            ////DtmFechaInicio.Enabled = false;
+            ////TxtAutorizacionP.Enabled = false;
+        }
+
+        private void BtnActualizar_Click_2(object sender, EventArgs e)
+        {
+            try
+            {
+                string Rta = "";
+
+
+                Rta = MAutorizado.ActualizarAutorizado(TxtDocumentoP.Text.Trim(), Convert.ToInt32(cboAutorizaciones.SelectedValue.ToString()), TxtNombresP.Text, TxtnombreEmpresa.Text, TxtNit.Text, DtmFechaInicio.Text, DtmFechaFin.Text, txtTelefono.Text, txtCorreo.Text, txtPlaca1p.Text, txtPlaca2p.Text, TxtPlaca3P.Text, txtPlaca4.Text);
+
+                if (Rta.Equals("OK"))
+                {
+                    this.MensajeOk("Datos Actualizados Correctamente");
+                    ListarPersonasAutorizadas();
+
+                }
+                else
+                {
+                    this.MensajeError(Rta);
+                }
+            }
+
+
+
+
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Hubo un error en el momento de actualizar el registro" + ex.Message);
+            }
         }
     }
 }
