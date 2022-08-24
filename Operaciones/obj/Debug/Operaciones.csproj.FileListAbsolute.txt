@@ -1,0 +1,73 @@
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Operaciones\obj\Debug\Operaciones.Autorizaciones.FrmAutorizado.resources
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Operaciones\obj\Debug\Operaciones.Facturacion.FrmAnularFactura.resources
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Operaciones\obj\Debug\Operaciones.Facturacion.FrmFacManuales.resources
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Operaciones\obj\Debug\Operaciones.Facturacion.FrmResolucion.resources
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Operaciones\obj\Debug\Operaciones.Login.FrmLogin.resources
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Operaciones\obj\Debug\Operaciones.Menu.resources
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Operaciones\obj\Debug\Operaciones.Properties.Resources.resources
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Operaciones\obj\Debug\Operaciones.csproj.GenerateResource.cache
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Operaciones\bin\Debug\Operaciones.exe.config
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Operaciones\bin\Debug\Operaciones.exe
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Operaciones\bin\Debug\Operaciones.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Operaciones\bin\Debug\Modelo.dll
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Operaciones\bin\Debug\Controlador.dll
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Operaciones\bin\Debug\Variable.dll
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Operaciones\bin\Debug\Modelo.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Operaciones\bin\Debug\Controlador.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Operaciones\bin\Debug\Variable.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Operaciones\obj\Debug\Operaciones.exe
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Operaciones\obj\Debug\Operaciones.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Operaciones\obj\Debug\Operaciones.Consignaciones.FrmConsignaciones.resources
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Operaciones\obj\Debug\Operaciones.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Operaciones\bin\Debug\Operaciones.exe.config
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Operaciones\obj\Debug\Operaciones.exe
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Operaciones\obj\Debug\Operaciones.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Operaciones\bin\Debug\Operaciones.exe
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Operaciones\bin\Debug\Operaciones.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Operaciones\bin\Debug\Modelo.dll
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Operaciones\bin\Debug\Controlador.dll
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Operaciones\bin\Debug\Variable.dll
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Operaciones\bin\Debug\Modelo.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Operaciones\bin\Debug\Controlador.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Operaciones\bin\Debug\Variable.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Operaciones\obj\Debug\Operaciones.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Operaciones\obj\Debug\Operaciones.Autorizaciones.FrmAutorizado.resources
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Operaciones\obj\Debug\Operaciones.Consignaciones.FrmConsignaciones.resources
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Operaciones\obj\Debug\Operaciones.Facturacion.FrmAnularFactura.resources
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Operaciones\obj\Debug\Operaciones.Facturacion.FrmFacManuales.resources
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Operaciones\obj\Debug\Operaciones.Facturacion.FrmResolucion.resources
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Operaciones\obj\Debug\Operaciones.Login.FrmLogin.resources
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Operaciones\obj\Debug\Operaciones.Menu.resources
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Operaciones\obj\Debug\Operaciones.Properties.Resources.resources
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Operaciones\obj\Debug\Operaciones.csproj.GenerateResource.Cache
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\Operaciones.exe.config
+D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.exe
+D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.pdb
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\Operaciones.exe
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\Operaciones.pdb
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\Modelo.dll
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\Controlador.dll
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\Variable.dll
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\Modelo.pdb
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\Controlador.pdb
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\Variable.pdb
+D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.Autorizaciones.FrmAutorizado.resources
+D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.Consignaciones.FrmConsignaciones.resources
+D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.Facturacion.FrmAnularFactura.resources
+D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.Facturacion.FrmFacManuales.resources
+D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.Facturacion.FrmResolucion.resources
+D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.Login.FrmLogin.resources
+D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.Menu.resources
+D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.Properties.Resources.resources
+D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.csproj.GenerateResource.Cache
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\EGlobalT.Device.SmartCard.dll
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\EGlobalT.Device.SmartCardDispensers.dll
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\EGlobalT.Device.SmartCardFeeders.dll
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\EGlobalT.Device.SmartCardReaders.dll
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\EGlobalT.Device.Tools.dll
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\GS.Apdu.dll
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\GS.CSharpPCSC.dll
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\GS.HexLibrary.dll
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\LectorDevice.dll
+D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.Seguridad.txtRuta.resources

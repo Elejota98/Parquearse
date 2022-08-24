@@ -1,0 +1,21 @@
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Controlador\bin\Debug\Controlador.dll
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Controlador\bin\Debug\Controlador.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Controlador\bin\Debug\Variable.dll
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Controlador\bin\Debug\Variable.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Controlador\obj\Debug\Controlador.dll
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Controlador\obj\Debug\Controlador.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Controlador\bin\Debug\Controlador.dll
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Controlador\bin\Debug\Controlador.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Controlador\bin\Debug\Variable.dll
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Controlador\bin\Debug\Variable.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Controlador\obj\Debug\Controlador.dll
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Controlador\obj\Debug\Controlador.pdb
+D:\PROYECTOS\LJ\Operaciones\Controlador\bin\Debug\Controlador.dll
+D:\PROYECTOS\LJ\Operaciones\Controlador\bin\Debug\Controlador.pdb
+D:\PROYECTOS\LJ\Operaciones\Controlador\bin\Debug\Variable.dll
+D:\PROYECTOS\LJ\Operaciones\Controlador\bin\Debug\Variable.pdb
+D:\PROYECTOS\LJ\Operaciones\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache
+D:\PROYECTOS\LJ\Operaciones\Controlador\obj\Debug\Controlador.dll
+D:\PROYECTOS\LJ\Operaciones\Controlador\obj\Debug\Controlador.pdb

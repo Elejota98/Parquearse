@@ -1,0 +1,12 @@
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Variable\bin\Debug\Variable.dll
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Variable\bin\Debug\Variable.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Variable\obj\Debug\Variable.dll
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\PRUEBAS OPERACIONES\Operaciones NV\Operaciones\Variable\obj\Debug\Variable.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Variable\bin\Debug\Variable.dll
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Variable\bin\Debug\Variable.pdb
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Variable\obj\Debug\Variable.dll
+C:\Users\Administrador\Documents\PRUEBAS LABORATORIO\Operaciones\Operaciones NV\Operaciones\Variable\obj\Debug\Variable.pdb
+D:\PROYECTOS\LJ\Operaciones\Variable\bin\Debug\Variable.dll
+D:\PROYECTOS\LJ\Operaciones\Variable\bin\Debug\Variable.pdb
+D:\PROYECTOS\LJ\Operaciones\Variable\obj\Debug\Variable.dll
+D:\PROYECTOS\LJ\Operaciones\Variable\obj\Debug\Variable.pdb
