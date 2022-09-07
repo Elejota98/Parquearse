@@ -95,13 +95,6 @@ namespace Operaciones.Autorizaciones
 
         }
 
-        private void DgvListado_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
-        {
-           
-
-
-        }
-
         private void BtnActualizar_Click(object sender, EventArgs e)
         {
             
@@ -120,10 +113,6 @@ namespace Operaciones.Autorizaciones
 
         }
 
-        private void BtnBuscar_Click_1(object sender, EventArgs e)
-        {
-            BuscarAutorizado();
-        }
 
         private void BtnActualizar_Click_1(object sender, EventArgs e)
         {
@@ -156,29 +145,6 @@ namespace Operaciones.Autorizaciones
             }
 
 
-        }
-
-        private void DgvListado_CellDoubleClick_1(object sender, DataGridViewCellEventArgs e)
-        {
-            PanelAutorizados.Visible = true;
-            TxtDocumentoP.Text = Convert.ToString(DgvListado.CurrentRow.Cells["Documento"].Value);
-            TxtNombresP.Text = Convert.ToString(DgvListado.CurrentRow.Cells["NombreApellidos"].Value);
-            TxtnombreEmpresa.Text = Convert.ToString(DgvListado.CurrentRow.Cells["NombreEmpresa"].Value);
-            TxtNit.Text = Convert.ToString(DgvListado.CurrentRow.Cells["Nit"].Value);
-            txtPlaca1p.Text = Convert.ToString(DgvListado.CurrentRow.Cells["Placa1"].Value);
-            DtmFechaInicio.Text = Convert.ToString(DgvListado.CurrentRow.Cells["FechaInicio"].Value);
-            DtmFechaFin.Text = Convert.ToString(DgvListado.CurrentRow.Cells["FechaFin"].Value);
-            txtPlaca2p.Text = Convert.ToString(DgvListado.CurrentRow.Cells["Placa2"].Value);
-            TxtPlaca3P.Text = Convert.ToString(DgvListado.CurrentRow.Cells["Placa3"].Value);
-            cboAutorizaciones.Text = Convert.ToString(DgvListado.CurrentRow.Cells["NombreAutorizacion"].Value);
-            ////TxtAutorizacionP.Text = Convert.ToString(DgvListado.CurrentRow.Cells["NombreAutorizacion"].Value);
-            TxtDocumentoP.Enabled = false;
-            //TxtNombresP.Enabled = false;
-            //TxtnombreEmpresa.Enabled = false;
-            //TxtNit.Enabled = false;
-            //TxtPlaca3P.Enabled = false;
-            ////DtmFechaInicio.Enabled = false;
-            ////TxtAutorizacionP.Enabled = false;
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
@@ -315,7 +281,30 @@ namespace Operaciones.Autorizaciones
 
         private void BtnBuscar_Click_2(object sender, EventArgs e)
         {
+            BuscarAutorizado();
+        }
 
+        private void DgvListado_CellDoubleClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+            PanelAutorizados.Visible = true;
+            TxtDocumentoP.Text = Convert.ToString(DgvListado.CurrentRow.Cells["Documento"].Value);
+            TxtNombresP.Text = Convert.ToString(DgvListado.CurrentRow.Cells["NombreApellidos"].Value);
+            TxtnombreEmpresa.Text = Convert.ToString(DgvListado.CurrentRow.Cells["NombreEmpresa"].Value);
+            TxtNit.Text = Convert.ToString(DgvListado.CurrentRow.Cells["Nit"].Value);
+            txtPlaca1p.Text = Convert.ToString(DgvListado.CurrentRow.Cells["Placa1"].Value);
+            DtmFechaInicio.Text = Convert.ToString(DgvListado.CurrentRow.Cells["FechaInicio"].Value);
+            DtmFechaFin.Text = Convert.ToString(DgvListado.CurrentRow.Cells["FechaFin"].Value);
+            txtPlaca2p.Text = Convert.ToString(DgvListado.CurrentRow.Cells["Placa2"].Value);
+            TxtPlaca3P.Text = Convert.ToString(DgvListado.CurrentRow.Cells["Placa3"].Value);
+            cboAutorizaciones.Text = Convert.ToString(DgvListado.CurrentRow.Cells["NombreAutorizacion"].Value);
+            ////TxtAutorizacionP.Text = Convert.ToString(DgvListado.CurrentRow.Cells["NombreAutorizacion"].Value);
+            TxtDocumentoP.Enabled = false;
+            //TxtNombresP.Enabled = false;
+            //TxtnombreEmpresa.Enabled = false;
+            //TxtNit.Enabled = false;
+            //TxtPlaca3P.Enabled = false;
+            ////DtmFechaInicio.Enabled = false;
+            ////TxtAutorizacionP.Enabled = false;
         }
     }
 }

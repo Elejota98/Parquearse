@@ -121,49 +121,7 @@ namespace Operaciones.Facturacion
     private void MensajeError(string Mensaje)
     {
         MessageBox.Show(Mensaje, "Parquearse Tecnología", MessageBoxButtons.OK, MessageBoxIcon.Error);
-    }
-
-    private void BtnCancelar_Click(object sender, EventArgs e)
-    {
-
-        try
-        {
-            DialogResult Opcion;
-            Opcion = MessageBox.Show("Desea cancelar la anulación de la factura?", "Parquearse Tecnología", MessageBoxButtons.OK, MessageBoxIcon.Question);
-            if (Opcion == DialogResult.OK)
-            {
-                int NumeroFac;
-                string Rta = "";
-                foreach (DataGridViewRow row in DgvListado.Rows)
-                {
-                    if (Convert.ToBoolean(row.Cells[7].Value))
-                    {
-
-                        NumeroFac = Convert.ToInt32(row.Cells[0].Value);
-                        Rta = MFacturacion.DesAnular(NumeroFac);
-                        if (Rta.Equals("OK"))
-                        {
-                            this.MensajeOk("Se cancelo la anulación de la factura: " + Convert.ToString(row.Cells[1].Value));
-                        }
-                        else
-                        {
-                            this.MensajeError(Rta);
-                        }
-                    }
-
-
-                }
-                this.Buscar();
-            }
-
-        }
-        catch (Exception ex)
-        {
-
-            MessageBox.Show("Error al momento de  cancelar la anulación de la factura", ex.Message + ex.StackTrace);
-        }
-
-    }
+    }        
 
         private void CboEstacionamiento_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -222,6 +180,46 @@ namespace Operaciones.Facturacion
             {
 
                 MessageBox.Show("Error al momento de anular la factura", ex.Message + ex.StackTrace);
+            }
+        }
+
+        private void BtnCancelar_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                DialogResult Opcion;
+                Opcion = MessageBox.Show("Desea cancelar la anulación de la factura?", "Parquearse Tecnología", MessageBoxButtons.OK, MessageBoxIcon.Question);
+                if (Opcion == DialogResult.OK)
+                {
+                    int NumeroFac;
+                    string Rta = "";
+                    foreach (DataGridViewRow row in DgvListado.Rows)
+                    {
+                        if (Convert.ToBoolean(row.Cells[7].Value))
+                        {
+
+                            NumeroFac = Convert.ToInt32(row.Cells[0].Value);
+                            Rta = MFacturacion.DesAnular(NumeroFac);
+                            if (Rta.Equals("OK"))
+                            {
+                                this.MensajeOk("Se cancelo la anulación de la factura: " + Convert.ToString(row.Cells[1].Value));
+                            }
+                            else
+                            {
+                                this.MensajeError(Rta);
+                            }
+                        }
+
+
+                    }
+                    this.Buscar();
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Error al momento de  cancelar la anulación de la factura", ex.Message + ex.StackTrace);
             }
         }
     }

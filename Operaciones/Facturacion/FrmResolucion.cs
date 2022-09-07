@@ -16,6 +16,7 @@ namespace Operaciones.Facturacion
         public FrmResolucion()
         {
             InitializeComponent();
+            ListarEstacionamiento();
 
         }     
         private void ListarEstacionamiento()
@@ -37,19 +38,47 @@ namespace Operaciones.Facturacion
         {
             ListarEstacionamiento();
             PanelResolucion.Visible = false;
-        }
-
-        private void BtnBuscar_Click(object sender, EventArgs e)
-        {
-            this.ListarDatosResolucion();
-        }
+        }    
 
         private void ListarDatosResolucion()
         {
             DgvListado.DataSource = MFacturacion.ListarResolucion(Convert.ToInt32(CboEstacionamiento.SelectedValue));
+        }    
+
+        private void BtnCancelar_Click(object sender, EventArgs e)
+        {
+            PanelResolucion.Visible = false;
+        }
+        private void MensajeOk(string Mensaje)
+        {
+            MessageBox.Show(Mensaje, "Parquearse Tecnología", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+        private void MensajeError(string Mensaje)
+        {
+            MessageBox.Show(Mensaje, "Parquearse Tecnología", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
-        private void DgvListado_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtFactuacion_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DtmResolucion_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnBuscar_Click_1(object sender, EventArgs e)
+        {
+            this.ListarDatosResolucion();
+        }
+
+        private void DgvListado_CellDoubleClick_1(object sender, DataGridViewCellEventArgs e)
         {
             try
             {
@@ -75,10 +104,8 @@ namespace Operaciones.Facturacion
             }
         }
 
-        private void BtnActualizar_Click(object sender, EventArgs e)
+        private void BtnActualizar_Click_1(object sender, EventArgs e)
         {
-
-
             try
             {
 
@@ -118,37 +145,11 @@ namespace Operaciones.Facturacion
             }
 
 
-
-
-
         }
 
-        private void BtnCancelar_Click(object sender, EventArgs e)
+        private void BtnCancelar_Click_1(object sender, EventArgs e)
         {
-            PanelResolucion.Visible = false;
-        }
-        private void MensajeOk(string Mensaje)
-        {
-            MessageBox.Show(Mensaje, "Parquearse Tecnología", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
-        private void MensajeError(string Mensaje)
-        {
-            MessageBox.Show(Mensaje, "Parquearse Tecnología", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TxtFactuacion_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void DtmResolucion_ValueChanged(object sender, EventArgs e)
-        {
-
+            this.Close();
         }
     }
 }

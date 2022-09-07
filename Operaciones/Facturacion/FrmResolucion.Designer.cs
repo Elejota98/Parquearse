@@ -73,6 +73,7 @@ namespace Operaciones.Facturacion
             this.DgvListado.ReadOnly = true;
             this.DgvListado.Size = new System.Drawing.Size(861, 150);
             this.DgvListado.TabIndex = 27;
+            this.DgvListado.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvListado_CellDoubleClick_1);
             // 
             // BtnBuscar
             // 
@@ -86,6 +87,7 @@ namespace Operaciones.Facturacion
             this.BtnBuscar.TabIndex = 25;
             this.BtnBuscar.Text = "Buscar";
             this.BtnBuscar.UseVisualStyleBackColor = false;
+            this.BtnBuscar.Click += new System.EventHandler(this.BtnBuscar_Click_1);
             // 
             // label10
             // 
@@ -140,6 +142,7 @@ namespace Operaciones.Facturacion
             this.BtnCancelar.TabIndex = 20;
             this.BtnCancelar.Text = "Cancelar";
             this.BtnCancelar.UseVisualStyleBackColor = false;
+            this.BtnCancelar.Click += new System.EventHandler(this.BtnCancelar_Click_1);
             // 
             // BtnActualizar
             // 
@@ -153,6 +156,7 @@ namespace Operaciones.Facturacion
             this.BtnActualizar.TabIndex = 19;
             this.BtnActualizar.Text = "Actualizar";
             this.BtnActualizar.UseVisualStyleBackColor = false;
+            this.BtnActualizar.Click += new System.EventHandler(this.BtnActualizar_Click_1);
             // 
             // PanelResolucion
             // 

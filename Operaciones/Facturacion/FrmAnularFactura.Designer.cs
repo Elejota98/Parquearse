@@ -122,6 +122,7 @@ namespace Operaciones.Facturacion
             this.BtnCancelar.TabIndex = 11;
             this.BtnCancelar.Text = "CANCELAR ANULACIÓN";
             this.BtnCancelar.UseVisualStyleBackColor = false;
+            this.BtnCancelar.Click += new System.EventHandler(this.BtnCancelar_Click_1);
             // 
             // BtnAnular
             // 

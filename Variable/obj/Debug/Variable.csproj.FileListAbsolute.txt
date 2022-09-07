@@ -10,3 +10,4 @@ D:\PROYECTOS\LJ\Operaciones\Variable\bin\Debug\Variable.dll
 D:\PROYECTOS\LJ\Operaciones\Variable\bin\Debug\Variable.pdb
 D:\PROYECTOS\LJ\Operaciones\Variable\obj\Debug\Variable.dll
 D:\PROYECTOS\LJ\Operaciones\Variable\obj\Debug\Variable.pdb
+D:\PROYECTOS\LJ\Operaciones\Variable\obj\Debug\Variable.csprojResolveAssemblyReference.cache

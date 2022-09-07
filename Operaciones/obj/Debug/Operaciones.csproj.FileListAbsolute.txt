@@ -66,8 +66,8 @@ D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\EGlobalT.Device.SmartCardDispe
 D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\EGlobalT.Device.SmartCardFeeders.dll
 D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\EGlobalT.Device.SmartCardReaders.dll
 D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\EGlobalT.Device.Tools.dll
-D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\GS.Apdu.dll
-D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\GS.CSharpPCSC.dll
-D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\GS.HexLibrary.dll
 D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\LectorDevice.dll
 D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.Seguridad.txtRuta.resources
+D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.Reportes.FrmSaldoEnLinea.resources
+D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\RdlCompile.cache
+D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\RdlCompile.compiled

@@ -36,8 +36,6 @@ namespace Operaciones.Login
 
         }
 
-
-
         private void button1_Click_1(object sender, EventArgs e)
         {
             try
@@ -81,7 +79,7 @@ namespace Operaciones.Login
         private void BtnMinimizar_Click_1(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Minimized;
-        }
+        }   
     }
     }
 

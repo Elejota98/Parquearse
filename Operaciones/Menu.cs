@@ -12,6 +12,7 @@ using Operaciones.Autorizaciones;
 using Operaciones.Consignaciones;
 using Operaciones.Facturacion;
 using Operaciones.Seguridad;
+using Operaciones.Reportes;
 
 namespace Operaciones
 {
@@ -286,16 +287,16 @@ namespace Operaciones
 
         private void BtnSaldoEnLinea_Click(object sender, EventArgs e)
         {
-            //AbrirFormularioHijo(new FrmSaldoEnLinea());
-            //hideSubmenu();
-            //PanelTitulo.Visible = true;
-            //LblAnulaciones.Visible = false;
-            //LblAutorizados.Visible = false;
-            //LblReportePatios.Visible = false;
-            //LblResoluciones.Visible = false;
-            //LblSaldoEnLinea.Visible = false;
-            //LblSaldoEnLinea.Visible = true;
-            //LblFacManuales.Visible = false;
+            AbrirFormularioHijo(new FrmSaldoEnLinea());
+            hideSubmenu();
+            PanelTitulo.Visible = true;
+            LblAnulaciones.Visible = false;
+            LblAutorizados.Visible = false;
+            LblReportePatios.Visible = false;
+            LblResoluciones.Visible = false;
+            LblSaldoEnLinea.Visible = false;
+            LblSaldoEnLinea.Visible = true;
+            LblFacManuales.Visible = false;
         }
 
         private void BtnReportePatios_Click(object sender, EventArgs e)
