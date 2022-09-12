@@ -25,3 +25,12 @@ D:\PROYECTOS\LJ\Operaciones\Modelo\bin\Debug\Variable.pdb
 D:\PROYECTOS\LJ\Operaciones\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
 D:\PROYECTOS\LJ\Operaciones\Modelo\obj\Debug\Modelo.dll
 D:\PROYECTOS\LJ\Operaciones\Modelo\obj\Debug\Modelo.pdb
+C:\PROYECTOS\Operaciones\Modelo\bin\Debug\Modelo.dll
+C:\PROYECTOS\Operaciones\Modelo\bin\Debug\Modelo.pdb
+C:\PROYECTOS\Operaciones\Modelo\bin\Debug\Controlador.dll
+C:\PROYECTOS\Operaciones\Modelo\bin\Debug\Variable.dll
+C:\PROYECTOS\Operaciones\Modelo\bin\Debug\Controlador.pdb
+C:\PROYECTOS\Operaciones\Modelo\bin\Debug\Variable.pdb
+C:\PROYECTOS\Operaciones\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+C:\PROYECTOS\Operaciones\Modelo\obj\Debug\Modelo.dll
+C:\PROYECTOS\Operaciones\Modelo\obj\Debug\Modelo.pdb

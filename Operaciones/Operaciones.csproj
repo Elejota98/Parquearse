@@ -128,11 +128,22 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSaldo.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Reportes\DataVentasDatafono.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataVentasDatafono.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Reportes\FrmSaldoEnLinea.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Reportes\FrmSaldoEnLinea.Designer.cs">
       <DependentUpon>FrmSaldoEnLinea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\FrmVentasDatafonos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\FrmVentasDatafonos.Designer.cs">
+      <DependentUpon>FrmVentasDatafonos.cs</DependentUpon>
     </Compile>
     <Compile Include="Seguridad\FrmCopiaBd.cs">
       <SubType>Form</SubType>
@@ -173,7 +184,11 @@
     <EmbeddedResource Include="Reportes\FrmSaldoEnLinea.resx">
       <DependentUpon>FrmSaldoEnLinea.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\FrmVentasDatafonos.resx">
+      <DependentUpon>FrmVentasDatafonos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reportes\ReportSaldoEnLinea.rdlc" />
+    <EmbeddedResource Include="Reportes\ReportVentasDatafono.rdlc" />
     <EmbeddedResource Include="Seguridad\FrmCopiaBd.resx">
       <DependentUpon>FrmCopiaBd.cs</DependentUpon>
     </EmbeddedResource>
@@ -196,6 +211,17 @@
     </None>
     <None Include="Reportes\DataSaldo.xss">
       <DependentUpon>DataSaldo.xsd</DependentUpon>
+    </None>
+    <None Include="Reportes\DataVentasDatafono.xsc">
+      <DependentUpon>DataVentasDatafono.xsd</DependentUpon>
+    </None>
+    <None Include="Reportes\DataVentasDatafono.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataVentasDatafono.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Reportes\DataVentasDatafono.xss">
+      <DependentUpon>DataVentasDatafono.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

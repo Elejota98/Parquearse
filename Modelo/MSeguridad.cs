@@ -9,10 +9,15 @@ namespace Modelo
 {
     public class MSeguridad
     {
-        public static string GenerarCopiaBd(string ruta, string nombreCopiaBd)
+        public static string GenerarCopiaBd(string ruta, string nombreCopiaBd, string nombreBaseDeDatos)
         {
             Controlador.SeguridadController Datos = new Controlador.SeguridadController();
-            return Datos.GenerarCopiaBd(ruta,nombreCopiaBd);
+            return Datos.GenerarCopiaBd(ruta,nombreCopiaBd, nombreBaseDeDatos);
+        }
+        public static DataTable ListarBaseDeDatos()
+        {
+            Controlador.SeguridadController Datos = new Controlador.SeguridadController();
+            return Datos.ListarBaseDeDatos();
         }
     }
 }

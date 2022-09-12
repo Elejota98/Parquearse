@@ -39,8 +39,10 @@ namespace Operaciones.Facturacion
             this.BtnCancelar = new System.Windows.Forms.Button();
             this.BtnAnular = new System.Windows.Forms.Button();
             this.DgvListado = new System.Windows.Forms.DataGridView();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DgvListado)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // BtnConsultar
@@ -104,7 +106,7 @@ namespace Operaciones.Facturacion
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.CboEstacionamiento);
             this.panel1.Controls.Add(this.TxtNumeroFactura);
-            this.panel1.Location = new System.Drawing.Point(38, 22);
+            this.panel1.Location = new System.Drawing.Point(71, 29);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(815, 100);
             this.panel1.TabIndex = 12;
@@ -116,7 +118,7 @@ namespace Operaciones.Facturacion
             this.BtnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnCancelar.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCancelar.ForeColor = System.Drawing.Color.White;
-            this.BtnCancelar.Location = new System.Drawing.Point(370, 349);
+            this.BtnCancelar.Location = new System.Drawing.Point(403, 356);
             this.BtnCancelar.Name = "BtnCancelar";
             this.BtnCancelar.Size = new System.Drawing.Size(217, 33);
             this.BtnCancelar.TabIndex = 11;
@@ -131,7 +133,7 @@ namespace Operaciones.Facturacion
             this.BtnAnular.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnAnular.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAnular.ForeColor = System.Drawing.Color.White;
-            this.BtnAnular.Location = new System.Drawing.Point(194, 349);
+            this.BtnAnular.Location = new System.Drawing.Point(227, 356);
             this.BtnAnular.Name = "BtnAnular";
             this.BtnAnular.Size = new System.Drawing.Size(101, 33);
             this.BtnAnular.TabIndex = 10;
@@ -153,27 +155,37 @@ namespace Operaciones.Facturacion
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.DgvListado.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.DgvListado.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DgvListado.Location = new System.Drawing.Point(19, 162);
+            this.DgvListado.Location = new System.Drawing.Point(52, 169);
             this.DgvListado.Name = "DgvListado";
             this.DgvListado.Size = new System.Drawing.Size(855, 166);
             this.DgvListado.TabIndex = 9;
             this.DgvListado.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvListado_CellContentClick_1);
             // 
+            // panel2
+            // 
+            this.panel2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.panel2.Controls.Add(this.panel1);
+            this.panel2.Controls.Add(this.DgvListado);
+            this.panel2.Controls.Add(this.BtnCancelar);
+            this.panel2.Controls.Add(this.BtnAnular);
+            this.panel2.Location = new System.Drawing.Point(31, 12);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(984, 409);
+            this.panel2.TabIndex = 13;
+            // 
             // FrmAnularFactura
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(892, 404);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.BtnCancelar);
-            this.Controls.Add(this.BtnAnular);
-            this.Controls.Add(this.DgvListado);
+            this.ClientSize = new System.Drawing.Size(1039, 455);
+            this.Controls.Add(this.panel2);
             this.Name = "FrmAnularFactura";
             this.Text = "FrmAnularFactura";
             this.Load += new System.EventHandler(this.FrmAnularFactura_Load_1);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DgvListado)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -189,5 +201,6 @@ namespace Operaciones.Facturacion
         private System.Windows.Forms.Button BtnCancelar;
         private System.Windows.Forms.Button BtnAnular;
         private System.Windows.Forms.DataGridView DgvListado;
+        private System.Windows.Forms.Panel panel2;
     }
 }
