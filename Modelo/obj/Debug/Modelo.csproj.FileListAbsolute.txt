@@ -22,7 +22,6 @@ D:\PROYECTOS\LJ\Operaciones\Modelo\bin\Debug\Controlador.dll
 D:\PROYECTOS\LJ\Operaciones\Modelo\bin\Debug\Variable.dll
 D:\PROYECTOS\LJ\Operaciones\Modelo\bin\Debug\Controlador.pdb
 D:\PROYECTOS\LJ\Operaciones\Modelo\bin\Debug\Variable.pdb
-D:\PROYECTOS\LJ\Operaciones\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
 D:\PROYECTOS\LJ\Operaciones\Modelo\obj\Debug\Modelo.dll
 D:\PROYECTOS\LJ\Operaciones\Modelo\obj\Debug\Modelo.pdb
 C:\PROYECTOS\Operaciones\Modelo\bin\Debug\Modelo.dll
@@ -34,3 +33,6 @@ C:\PROYECTOS\Operaciones\Modelo\bin\Debug\Variable.pdb
 C:\PROYECTOS\Operaciones\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
 C:\PROYECTOS\Operaciones\Modelo\obj\Debug\Modelo.dll
 C:\PROYECTOS\Operaciones\Modelo\obj\Debug\Modelo.pdb
+D:\PROYECTOS\LJ\Operaciones\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+D:\PROYECTOS\LJ\Operaciones\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+D:\PROYECTOS\LJ\Operaciones\Modelo\obj\Debug\Modelo.csproj.CopyComplete

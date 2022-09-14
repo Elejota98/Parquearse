@@ -33,12 +33,12 @@ namespace Operaciones.Login
             this.Titulo = new System.Windows.Forms.Panel();
             this.BtnMinimizar = new System.Windows.Forms.PictureBox();
             this.BtnCerrar = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.TxtContraseña = new System.Windows.Forms.TextBox();
             this.TxtUsuario = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnLogin = new FontAwesome.Sharp.IconButton();
             this.Titulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.BtnMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BtnCerrar)).BeginInit();
@@ -53,14 +53,14 @@ namespace Operaciones.Login
             this.Titulo.Location = new System.Drawing.Point(0, 0);
             this.Titulo.Margin = new System.Windows.Forms.Padding(4);
             this.Titulo.Name = "Titulo";
-            this.Titulo.Size = new System.Drawing.Size(448, 62);
+            this.Titulo.Size = new System.Drawing.Size(427, 62);
             this.Titulo.TabIndex = 7;
             // 
             // BtnMinimizar
             // 
             this.BtnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("BtnMinimizar.Image")));
-            this.BtnMinimizar.Location = new System.Drawing.Point(376, 15);
+            this.BtnMinimizar.Location = new System.Drawing.Point(351, 0);
             this.BtnMinimizar.Margin = new System.Windows.Forms.Padding(4);
             this.BtnMinimizar.Name = "BtnMinimizar";
             this.BtnMinimizar.Size = new System.Drawing.Size(28, 26);
@@ -73,7 +73,7 @@ namespace Operaciones.Login
             // 
             this.BtnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("BtnCerrar.Image")));
-            this.BtnCerrar.Location = new System.Drawing.Point(412, 15);
+            this.BtnCerrar.Location = new System.Drawing.Point(387, 0);
             this.BtnCerrar.Margin = new System.Windows.Forms.Padding(4);
             this.BtnCerrar.Name = "BtnCerrar";
             this.BtnCerrar.Size = new System.Drawing.Size(28, 26);
@@ -82,33 +82,17 @@ namespace Operaciones.Login
             this.BtnCerrar.TabStop = false;
             this.BtnCerrar.Click += new System.EventHandler(this.BtnCerrar_Click_1);
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.DimGray;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(13, 353);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(411, 65);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "Ingresar";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
-            // 
             // TxtContraseña
             // 
             this.TxtContraseña.BackColor = System.Drawing.Color.White;
             this.TxtContraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TxtContraseña.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtContraseña.ForeColor = System.Drawing.Color.Black;
-            this.TxtContraseña.Location = new System.Drawing.Point(13, 263);
+            this.TxtContraseña.Location = new System.Drawing.Point(111, 282);
             this.TxtContraseña.Margin = new System.Windows.Forms.Padding(4);
             this.TxtContraseña.Name = "TxtContraseña";
             this.TxtContraseña.PasswordChar = '*';
-            this.TxtContraseña.Size = new System.Drawing.Size(411, 27);
+            this.TxtContraseña.Size = new System.Drawing.Size(197, 27);
             this.TxtContraseña.TabIndex = 12;
             // 
             // TxtUsuario
@@ -117,10 +101,10 @@ namespace Operaciones.Login
             this.TxtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.TxtUsuario.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtUsuario.ForeColor = System.Drawing.Color.Black;
-            this.TxtUsuario.Location = new System.Drawing.Point(8, 146);
+            this.TxtUsuario.Location = new System.Drawing.Point(111, 172);
             this.TxtUsuario.Margin = new System.Windows.Forms.Padding(4);
             this.TxtUsuario.Name = "TxtUsuario";
-            this.TxtUsuario.Size = new System.Drawing.Size(416, 27);
+            this.TxtUsuario.Size = new System.Drawing.Size(202, 27);
             this.TxtUsuario.TabIndex = 11;
             // 
             // label2
@@ -129,7 +113,7 @@ namespace Operaciones.Login
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Century Schoolbook", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(3, 209);
+            this.label2.Location = new System.Drawing.Point(122, 229);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(163, 33);
@@ -142,7 +126,7 @@ namespace Operaciones.Login
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Century Schoolbook", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(3, 91);
+            this.label1.Location = new System.Drawing.Point(137, 114);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(117, 33);
@@ -153,20 +137,41 @@ namespace Operaciones.Login
             // 
             this.panel1.BackColor = System.Drawing.Color.Gray;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 684);
+            this.panel1.Location = new System.Drawing.Point(0, 539);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(448, 18);
+            this.panel1.Size = new System.Drawing.Size(427, 18);
             this.panel1.TabIndex = 8;
+            // 
+            // btnLogin
+            // 
+            this.btnLogin.BackColor = System.Drawing.Color.LimeGreen;
+            this.btnLogin.FlatAppearance.BorderSize = 0;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogin.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.ForeColor = System.Drawing.Color.Honeydew;
+            this.btnLogin.IconChar = FontAwesome.Sharp.IconChar.ArrowRightToCity;
+            this.btnLogin.IconColor = System.Drawing.Color.White;
+            this.btnLogin.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnLogin.IconSize = 32;
+            this.btnLogin.Location = new System.Drawing.Point(96, 374);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(195, 55);
+            this.btnLogin.TabIndex = 13;
+            this.btnLogin.Text = "Ingresar";
+            this.btnLogin.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.iconButton1_Click);
             // 
             // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.ClientSize = new System.Drawing.Size(448, 702);
+            this.BackgroundImage = global::Operaciones.Properties.Resources.FondoLogin1;
+            this.ClientSize = new System.Drawing.Size(427, 557);
+            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.Titulo);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.TxtContraseña);
             this.Controls.Add(this.TxtUsuario);
             this.Controls.Add(this.label2);
@@ -192,11 +197,11 @@ namespace Operaciones.Login
         private System.Windows.Forms.Panel Titulo;
         private System.Windows.Forms.PictureBox BtnMinimizar;
         private System.Windows.Forms.PictureBox BtnCerrar;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox TxtContraseña;
         private System.Windows.Forms.TextBox TxtUsuario;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
+        private FontAwesome.Sharp.IconButton btnLogin;
     }
 }

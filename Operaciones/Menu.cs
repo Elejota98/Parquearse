@@ -18,6 +18,9 @@ namespace Operaciones
 {
     public partial class Menu : Form
     {
+        //private IconButton currenBtn;
+        private Panel leftBorderBtn;
+        private Form currentChildForm;
 
         public string Nombre;
         public string Cargo;
@@ -35,13 +38,7 @@ namespace Operaciones
             PanelSubMenu3.Visible = false;
             PanelSubMenu4.Visible = false;
             PanelSubMenu5.Visible = false;
-            LblAnulaciones.Visible = false;
-            LblAutorizados.Visible = false;
-            LblReportePatios.Visible = false;
-            LblResoluciones.Visible = false;
-            LblSaldoEnLinea.Visible = false;
             PanelTitulo.Visible = false;
-            LblConsignaciones.Visible = false;
 
 
         }
@@ -104,14 +101,6 @@ namespace Operaciones
         {
             AbrirFormularioHijo(new FrmAnularFactura());
             hideSubmenu();
-            PanelTitulo.Visible = true;
-            LblAnulaciones.Visible = true;
-            LblAutorizados.Visible = false;
-            LblReportePatios.Visible = false;
-            LblResoluciones.Visible = false;
-            LblSaldoEnLinea.Visible = false;
-            LblFacManuales.Visible = false;
-            LblConsignaciones.Visible = false;
 
         }
 
@@ -119,14 +108,6 @@ namespace Operaciones
         {
             AbrirFormularioHijo(new FrmResolucion());
             hideSubmenu();
-            PanelTitulo.Visible = true;
-            LblAnulaciones.Visible = false;
-            LblAutorizados.Visible = false;
-            LblReportePatios.Visible = false;
-            LblResoluciones.Visible = true;
-            LblSaldoEnLinea.Visible = false;
-            LblFacManuales.Visible = false;
-            LblConsignaciones.Visible = false;
         }
 
         private void FrmPrincipal_Load(object sender, EventArgs e)
@@ -154,14 +135,6 @@ namespace Operaciones
         {
             AbrirFormularioHijo(new FrmAutorizado());
             hideSubmenu();
-            PanelTitulo.Visible = true;
-            LblAnulaciones.Visible = false;
-            LblAutorizados.Visible = true;
-            LblReportePatios.Visible = false;
-            LblResoluciones.Visible = false;
-            LblSaldoEnLinea.Visible = false;
-            LblFacManuales.Visible = false;
-            LblConsignaciones.Visible = false;
 
         }
 
@@ -175,15 +148,6 @@ namespace Operaciones
         {
             AbrirFormularioHijo(new FrmFacManuales());
             hideSubmenu();
-            PanelTitulo.Visible = true;
-            LblAnulaciones.Visible = false;
-            LblAutorizados.Visible = false;
-            LblReportePatios.Visible = false;
-            LblResoluciones.Visible = false;
-            LblSaldoEnLinea.Visible = false;
-            LblSaldoEnLinea.Visible = false;
-            LblFacManuales.Visible = true;
-            LblConsignaciones.Visible = false;
         }
 
         private void BtnFacturacion_Click(object sender, EventArgs e)
@@ -236,17 +200,11 @@ namespace Operaciones
 
         private void BtnAnulaciones_Click(object sender, EventArgs e)
         {
+
             AbrirFormularioHijo(new FrmAnularFactura());
             hideSubmenu();
             PanelTitulo.Visible = true;
-            LblAnulaciones.Visible = true;
-            LblAutorizados.Visible = false;
-            LblReportePatios.Visible = false;
-            LblResoluciones.Visible = false;
-            LblSaldoEnLinea.Visible = false;
-            LblFacManuales.Visible = false;
-            LblConsignaciones.Visible = false;
-            LblCopiaBd.Visible = false;
+            lblTitulo.Text = BtnAnulaciones.Text;
         }
 
         private void BtnResoluciones_Click(object sender, EventArgs e)
@@ -254,14 +212,7 @@ namespace Operaciones
             AbrirFormularioHijo(new FrmResolucion());
             hideSubmenu();
             PanelTitulo.Visible = true;
-            LblAnulaciones.Visible = false;
-            LblAutorizados.Visible = false;
-            LblReportePatios.Visible = false;
-            LblResoluciones.Visible = true;
-            LblSaldoEnLinea.Visible = false;
-            LblFacManuales.Visible = false;
-            LblConsignaciones.Visible = false;
-            LblCopiaBd.Visible = false;
+            lblTitulo.Text = BtnResoluciones.Text;
         }
 
         private void BtnFacManuales_Click(object sender, EventArgs e)
@@ -269,15 +220,7 @@ namespace Operaciones
             AbrirFormularioHijo(new FrmFacManuales());
             hideSubmenu();
             PanelTitulo.Visible = true;
-            LblAnulaciones.Visible = false;
-            LblAutorizados.Visible = false;
-            LblReportePatios.Visible = false;
-            LblResoluciones.Visible = false;
-            LblSaldoEnLinea.Visible = false;
-            LblSaldoEnLinea.Visible = false;
-            LblFacManuales.Visible = true;
-            LblConsignaciones.Visible = false;
-            LblCopiaBd.Visible = false;
+            lblTitulo.Text = BtnFacManuales.Text;
         }
 
         private void BtnReportes_Click_1(object sender, EventArgs e)
@@ -290,31 +233,20 @@ namespace Operaciones
             AbrirFormularioHijo(new FrmSaldoEnLinea());
             hideSubmenu();
             PanelTitulo.Visible = true;
-            LblAnulaciones.Visible = false;
-            LblAutorizados.Visible = false;
-            LblReportePatios.Visible = false;
-            LblResoluciones.Visible = false;
-            LblSaldoEnLinea.Visible = false;
-            LblSaldoEnLinea.Visible = true;
-            LblFacManuales.Visible = false;
+            lblTitulo.Text = BtnSaldoEnLinea.Text;
         }
 
         private void BtnReportePatios_Click(object sender, EventArgs e)
         {
             //AbrirFormularioHijo(new FrmReportePatios());
-            //hideSubmenu();
-            //PanelTitulo.Visible = true;
-            //LblAnulaciones.Visible = false;
-            //LblAutorizados.Visible = false;
-            //LblReportePatios.Visible = true;
-            //LblResoluciones.Visible = false;
-            //LblSaldoEnLinea.Visible = false;
-            //LblFacManuales.Visible = false;
+            hideSubmenu();
+            PanelTitulo.Visible = true;
+            lblTitulo.Text = BtnReportePatios.Text;
         }
 
         private void BtnReporteDatafonos_Click_1(object sender, EventArgs e)
         {
-
+            lblTitulo.Text = BtnReporteDatafonos.Text;
         }
 
         private void BtnAutorizados_Click_1(object sender, EventArgs e)
@@ -327,14 +259,7 @@ namespace Operaciones
             AbrirFormularioHijo(new FrmAutorizado());
             hideSubmenu();
             PanelTitulo.Visible = true;
-            LblAnulaciones.Visible = false;
-            LblAutorizados.Visible = true;
-            LblReportePatios.Visible = false;
-            LblResoluciones.Visible = false;
-            LblSaldoEnLinea.Visible = false;
-            LblFacManuales.Visible = false;
-            LblConsignaciones.Visible = false;
-            LblCopiaBd.Visible = false;
+            lblTitulo.Text = BtnActualizarFechaCorte.Text;
         }
 
         private void Menu_Load(object sender, EventArgs e)
@@ -393,14 +318,7 @@ namespace Operaciones
             AbrirFormularioHijo(new FrmConsignaciones());
             hideSubmenu();
             PanelTitulo.Visible = true;
-            LblAnulaciones.Visible = false;
-            LblAutorizados.Visible = false;
-            LblReportePatios.Visible = false;
-            LblResoluciones.Visible = false;
-            LblSaldoEnLinea.Visible = false;
-            LblFacManuales.Visible = false;
-            LblConsignaciones.Visible = true;
-            LblCopiaBd.Visible = false;
+            lblTitulo.Text = BtnConsignaciones.Text;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -413,14 +331,8 @@ namespace Operaciones
             AbrirFormularioHijo(new txtRuta());
             hideSubmenu();
             PanelTitulo.Visible = true;
-            LblAnulaciones.Visible = false;
-            LblAutorizados.Visible = false;
-            LblReportePatios.Visible = false;
-            LblResoluciones.Visible = false;
-            LblSaldoEnLinea.Visible = false;
-            LblFacManuales.Visible = false;
-            LblConsignaciones.Visible = false;
-            LblCopiaBd.Visible = true;
+            lblTitulo.Text = btnCopiaBd.Text;
         }
+        
     }
 }

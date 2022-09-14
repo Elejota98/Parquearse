@@ -30,14 +30,7 @@ namespace Operaciones
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
-            this.LblFacManuales = new System.Windows.Forms.Label();
-            this.LblAutorizados = new System.Windows.Forms.Label();
-            this.LblReportePatios = new System.Windows.Forms.Label();
-            this.LblSaldoEnLinea = new System.Windows.Forms.Label();
-            this.LblAnulaciones = new System.Windows.Forms.Label();
             this.PanelTitulo = new System.Windows.Forms.Panel();
-            this.LblConsignaciones = new System.Windows.Forms.Label();
-            this.LblResoluciones = new System.Windows.Forms.Label();
             this.PanelFormulario = new System.Windows.Forms.Panel();
             this.BtnFacturacion = new System.Windows.Forms.Button();
             this.PanelLogo = new System.Windows.Forms.Panel();
@@ -54,94 +47,27 @@ namespace Operaciones
             this.PanelSubMenu3 = new System.Windows.Forms.Panel();
             this.PanelSubMenu = new System.Windows.Forms.Panel();
             this.PanelMenuLateral = new System.Windows.Forms.Panel();
-            this.PanelSubMenu4 = new System.Windows.Forms.Panel();
-            this.BtnActConsignaciones = new System.Windows.Forms.Button();
-            this.BtnConsignaciones = new System.Windows.Forms.Button();
             this.PanelSubMenu5 = new System.Windows.Forms.Panel();
             this.btnCopiaBd = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.LblCopiaBd = new System.Windows.Forms.Label();
+            this.PanelSubMenu4 = new System.Windows.Forms.Panel();
+            this.BtnActConsignaciones = new System.Windows.Forms.Button();
+            this.BtnConsignaciones = new System.Windows.Forms.Button();
+            this.lblTitulo = new System.Windows.Forms.Label();
             this.PanelTitulo.SuspendLayout();
             this.PanelFormulario.SuspendLayout();
             this.PanelSubMenu2.SuspendLayout();
             this.PanelSubMenu3.SuspendLayout();
             this.PanelSubMenu.SuspendLayout();
             this.PanelMenuLateral.SuspendLayout();
-            this.PanelSubMenu4.SuspendLayout();
             this.PanelSubMenu5.SuspendLayout();
+            this.PanelSubMenu4.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // LblFacManuales
-            // 
-            this.LblFacManuales.AutoSize = true;
-            this.LblFacManuales.Font = new System.Drawing.Font("Arial Rounded MT Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblFacManuales.ForeColor = System.Drawing.Color.White;
-            this.LblFacManuales.Location = new System.Drawing.Point(221, 31);
-            this.LblFacManuales.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.LblFacManuales.Name = "LblFacManuales";
-            this.LblFacManuales.Size = new System.Drawing.Size(579, 55);
-            this.LblFacManuales.TabIndex = 5;
-            this.LblFacManuales.Text = "FACTURAS MANUALES";
-            // 
-            // LblAutorizados
-            // 
-            this.LblAutorizados.AutoSize = true;
-            this.LblAutorizados.Font = new System.Drawing.Font("Arial Rounded MT Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblAutorizados.ForeColor = System.Drawing.Color.White;
-            this.LblAutorizados.Location = new System.Drawing.Point(216, 31);
-            this.LblAutorizados.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.LblAutorizados.Name = "LblAutorizados";
-            this.LblAutorizados.Size = new System.Drawing.Size(385, 55);
-            this.LblAutorizados.TabIndex = 4;
-            this.LblAutorizados.Text = "AUTORIZADOS";
-            // 
-            // LblReportePatios
-            // 
-            this.LblReportePatios.AutoSize = true;
-            this.LblReportePatios.Font = new System.Drawing.Font("Arial Rounded MT Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblReportePatios.ForeColor = System.Drawing.Color.White;
-            this.LblReportePatios.Location = new System.Drawing.Point(208, 31);
-            this.LblReportePatios.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.LblReportePatios.Name = "LblReportePatios";
-            this.LblReportePatios.Size = new System.Drawing.Size(532, 55);
-            this.LblReportePatios.TabIndex = 3;
-            this.LblReportePatios.Text = "REPORTE DE PATIOS";
-            // 
-            // LblSaldoEnLinea
-            // 
-            this.LblSaldoEnLinea.AutoSize = true;
-            this.LblSaldoEnLinea.Font = new System.Drawing.Font("Arial Rounded MT Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblSaldoEnLinea.ForeColor = System.Drawing.Color.White;
-            this.LblSaldoEnLinea.Location = new System.Drawing.Point(216, 31);
-            this.LblSaldoEnLinea.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.LblSaldoEnLinea.Name = "LblSaldoEnLinea";
-            this.LblSaldoEnLinea.Size = new System.Drawing.Size(433, 55);
-            this.LblSaldoEnLinea.TabIndex = 2;
-            this.LblSaldoEnLinea.Text = "SALDO EN LÍNEA";
-            // 
-            // LblAnulaciones
-            // 
-            this.LblAnulaciones.AutoSize = true;
-            this.LblAnulaciones.Font = new System.Drawing.Font("Arial Rounded MT Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblAnulaciones.ForeColor = System.Drawing.Color.White;
-            this.LblAnulaciones.Location = new System.Drawing.Point(221, 24);
-            this.LblAnulaciones.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.LblAnulaciones.Name = "LblAnulaciones";
-            this.LblAnulaciones.Size = new System.Drawing.Size(384, 55);
-            this.LblAnulaciones.TabIndex = 0;
-            this.LblAnulaciones.Text = "ANULACIONES";
             // 
             // PanelTitulo
             // 
             this.PanelTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(174)))), ((int)(((byte)(68)))));
-            this.PanelTitulo.Controls.Add(this.LblCopiaBd);
-            this.PanelTitulo.Controls.Add(this.LblConsignaciones);
-            this.PanelTitulo.Controls.Add(this.LblFacManuales);
-            this.PanelTitulo.Controls.Add(this.LblAutorizados);
-            this.PanelTitulo.Controls.Add(this.LblReportePatios);
-            this.PanelTitulo.Controls.Add(this.LblSaldoEnLinea);
-            this.PanelTitulo.Controls.Add(this.LblResoluciones);
-            this.PanelTitulo.Controls.Add(this.LblAnulaciones);
+            this.PanelTitulo.Controls.Add(this.lblTitulo);
             this.PanelTitulo.Dock = System.Windows.Forms.DockStyle.Top;
             this.PanelTitulo.ForeColor = System.Drawing.SystemColors.ControlText;
             this.PanelTitulo.Location = new System.Drawing.Point(0, 0);
@@ -149,30 +75,6 @@ namespace Operaciones
             this.PanelTitulo.Name = "PanelTitulo";
             this.PanelTitulo.Size = new System.Drawing.Size(916, 113);
             this.PanelTitulo.TabIndex = 0;
-            // 
-            // LblConsignaciones
-            // 
-            this.LblConsignaciones.AutoSize = true;
-            this.LblConsignaciones.Font = new System.Drawing.Font("Arial Rounded MT Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblConsignaciones.ForeColor = System.Drawing.Color.White;
-            this.LblConsignaciones.Location = new System.Drawing.Point(208, 31);
-            this.LblConsignaciones.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.LblConsignaciones.Name = "LblConsignaciones";
-            this.LblConsignaciones.Size = new System.Drawing.Size(479, 55);
-            this.LblConsignaciones.TabIndex = 6;
-            this.LblConsignaciones.Text = "CONSIGNACIONES";
-            // 
-            // LblResoluciones
-            // 
-            this.LblResoluciones.AutoSize = true;
-            this.LblResoluciones.Font = new System.Drawing.Font("Arial Rounded MT Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblResoluciones.ForeColor = System.Drawing.Color.White;
-            this.LblResoluciones.Location = new System.Drawing.Point(221, 24);
-            this.LblResoluciones.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.LblResoluciones.Name = "LblResoluciones";
-            this.LblResoluciones.Size = new System.Drawing.Size(415, 55);
-            this.LblResoluciones.TabIndex = 1;
-            this.LblResoluciones.Text = "RESOLUCIONES";
             // 
             // PanelFormulario
             // 
@@ -410,48 +312,6 @@ namespace Operaciones
             this.PanelMenuLateral.Size = new System.Drawing.Size(328, 845);
             this.PanelMenuLateral.TabIndex = 4;
             // 
-            // PanelSubMenu4
-            // 
-            this.PanelSubMenu4.Controls.Add(this.BtnActConsignaciones);
-            this.PanelSubMenu4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.PanelSubMenu4.Location = new System.Drawing.Point(0, 788);
-            this.PanelSubMenu4.Name = "PanelSubMenu4";
-            this.PanelSubMenu4.Size = new System.Drawing.Size(311, 61);
-            this.PanelSubMenu4.TabIndex = 9;
-            // 
-            // BtnActConsignaciones
-            // 
-            this.BtnActConsignaciones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.BtnActConsignaciones.FlatAppearance.BorderSize = 0;
-            this.BtnActConsignaciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnActConsignaciones.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnActConsignaciones.ForeColor = System.Drawing.Color.White;
-            this.BtnActConsignaciones.Location = new System.Drawing.Point(0, 0);
-            this.BtnActConsignaciones.Name = "BtnActConsignaciones";
-            this.BtnActConsignaciones.Size = new System.Drawing.Size(328, 61);
-            this.BtnActConsignaciones.TabIndex = 2;
-            this.BtnActConsignaciones.Text = "Actualizar Consignaciones";
-            this.BtnActConsignaciones.UseVisualStyleBackColor = false;
-            this.BtnActConsignaciones.Click += new System.EventHandler(this.BtnActConsignaciones_Click);
-            // 
-            // BtnConsignaciones
-            // 
-            this.BtnConsignaciones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(174)))), ((int)(((byte)(68)))));
-            this.BtnConsignaciones.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BtnConsignaciones.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.BtnConsignaciones.FlatAppearance.BorderSize = 0;
-            this.BtnConsignaciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnConsignaciones.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnConsignaciones.ForeColor = System.Drawing.Color.White;
-            this.BtnConsignaciones.Location = new System.Drawing.Point(0, 719);
-            this.BtnConsignaciones.Name = "BtnConsignaciones";
-            this.BtnConsignaciones.Size = new System.Drawing.Size(311, 69);
-            this.BtnConsignaciones.TabIndex = 9;
-            this.BtnConsignaciones.Text = "Consignaciones";
-            this.BtnConsignaciones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BtnConsignaciones.UseVisualStyleBackColor = false;
-            this.BtnConsignaciones.Click += new System.EventHandler(this.BtnConsignaciones_Click);
-            // 
             // PanelSubMenu5
             // 
             this.PanelSubMenu5.Controls.Add(this.btnCopiaBd);
@@ -495,17 +355,57 @@ namespace Operaciones
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // LblCopiaBd
+            // PanelSubMenu4
             // 
-            this.LblCopiaBd.AutoSize = true;
-            this.LblCopiaBd.Font = new System.Drawing.Font("Arial Rounded MT Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblCopiaBd.ForeColor = System.Drawing.Color.White;
-            this.LblCopiaBd.Location = new System.Drawing.Point(219, 29);
-            this.LblCopiaBd.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.LblCopiaBd.Name = "LblCopiaBd";
-            this.LblCopiaBd.Size = new System.Drawing.Size(589, 55);
-            this.LblCopiaBd.TabIndex = 7;
-            this.LblCopiaBd.Text = "COPIA BASE DE DATOS";
+            this.PanelSubMenu4.Controls.Add(this.BtnActConsignaciones);
+            this.PanelSubMenu4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PanelSubMenu4.Location = new System.Drawing.Point(0, 788);
+            this.PanelSubMenu4.Name = "PanelSubMenu4";
+            this.PanelSubMenu4.Size = new System.Drawing.Size(311, 61);
+            this.PanelSubMenu4.TabIndex = 9;
+            // 
+            // BtnActConsignaciones
+            // 
+            this.BtnActConsignaciones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.BtnActConsignaciones.FlatAppearance.BorderSize = 0;
+            this.BtnActConsignaciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnActConsignaciones.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnActConsignaciones.ForeColor = System.Drawing.Color.White;
+            this.BtnActConsignaciones.Location = new System.Drawing.Point(0, 0);
+            this.BtnActConsignaciones.Name = "BtnActConsignaciones";
+            this.BtnActConsignaciones.Size = new System.Drawing.Size(328, 61);
+            this.BtnActConsignaciones.TabIndex = 2;
+            this.BtnActConsignaciones.Text = "Actualizar Consignaciones";
+            this.BtnActConsignaciones.UseVisualStyleBackColor = false;
+            this.BtnActConsignaciones.Click += new System.EventHandler(this.BtnActConsignaciones_Click);
+            // 
+            // BtnConsignaciones
+            // 
+            this.BtnConsignaciones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(89)))), ((int)(((byte)(174)))), ((int)(((byte)(68)))));
+            this.BtnConsignaciones.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnConsignaciones.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.BtnConsignaciones.FlatAppearance.BorderSize = 0;
+            this.BtnConsignaciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnConsignaciones.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnConsignaciones.ForeColor = System.Drawing.Color.White;
+            this.BtnConsignaciones.Location = new System.Drawing.Point(0, 719);
+            this.BtnConsignaciones.Name = "BtnConsignaciones";
+            this.BtnConsignaciones.Size = new System.Drawing.Size(311, 69);
+            this.BtnConsignaciones.TabIndex = 9;
+            this.BtnConsignaciones.Text = "Consignaciones";
+            this.BtnConsignaciones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnConsignaciones.UseVisualStyleBackColor = false;
+            this.BtnConsignaciones.Click += new System.EventHandler(this.BtnConsignaciones_Click);
+            // 
+            // lblTitulo
+            // 
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.Font = new System.Drawing.Font("Microsoft YaHei", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblTitulo.Location = new System.Drawing.Point(301, 28);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(0, 50);
+            this.lblTitulo.TabIndex = 0;
             // 
             // Menu
             // 
@@ -527,21 +427,15 @@ namespace Operaciones
             this.PanelSubMenu3.ResumeLayout(false);
             this.PanelSubMenu.ResumeLayout(false);
             this.PanelMenuLateral.ResumeLayout(false);
-            this.PanelSubMenu4.ResumeLayout(false);
             this.PanelSubMenu5.ResumeLayout(false);
+            this.PanelSubMenu4.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label LblFacManuales;
-        private System.Windows.Forms.Label LblAutorizados;
-        private System.Windows.Forms.Label LblReportePatios;
-        private System.Windows.Forms.Label LblSaldoEnLinea;
-        private System.Windows.Forms.Label LblAnulaciones;
         private System.Windows.Forms.Panel PanelTitulo;
-        private System.Windows.Forms.Label LblResoluciones;
         private System.Windows.Forms.Panel PanelFormulario;
         private System.Windows.Forms.Button BtnFacturacion;
         private System.Windows.Forms.Panel PanelLogo;
@@ -561,11 +455,10 @@ namespace Operaciones
         private System.Windows.Forms.Panel PanelSubMenu4;
         private System.Windows.Forms.Button BtnActConsignaciones;
         private System.Windows.Forms.Button BtnConsignaciones;
-        private System.Windows.Forms.Label LblConsignaciones;
         private System.Windows.Forms.Panel PanelSubMenu5;
         private System.Windows.Forms.Button btnCopiaBd;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label LblCopiaBd;
+        private System.Windows.Forms.Label lblTitulo;
     }
 }
 

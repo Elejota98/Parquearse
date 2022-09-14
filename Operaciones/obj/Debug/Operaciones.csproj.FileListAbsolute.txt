@@ -51,7 +51,6 @@ D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\Variable.dll
 D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\Modelo.pdb
 D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\Controlador.pdb
 D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\Variable.pdb
-D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.csprojResolveAssemblyReference.cache
 D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.Autorizaciones.FrmAutorizado.resources
 D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.Consignaciones.FrmConsignaciones.resources
 D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.Facturacion.FrmAnularFactura.resources
@@ -69,8 +68,6 @@ D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\EGlobalT.Device.Tools.dll
 D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\LectorDevice.dll
 D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.Seguridad.txtRuta.resources
 D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.Reportes.FrmSaldoEnLinea.resources
-D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\RdlCompile.cache
-D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\RdlCompile.compiled
 C:\PROYECTOS\Operaciones\Operaciones\bin\Debug\Operaciones.exe.config
 C:\PROYECTOS\Operaciones\Operaciones\obj\Debug\Operaciones.exe
 C:\PROYECTOS\Operaciones\Operaciones\obj\Debug\Operaciones.pdb
@@ -97,3 +94,20 @@ C:\PROYECTOS\Operaciones\Operaciones\obj\Debug\Operaciones.Seguridad.txtRuta.res
 C:\PROYECTOS\Operaciones\Operaciones\obj\Debug\Operaciones.csproj.GenerateResource.Cache
 C:\PROYECTOS\Operaciones\Operaciones\obj\Debug\RdlCompile.cache
 C:\PROYECTOS\Operaciones\Operaciones\obj\Debug\RdlCompile.compiled
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.csproj.AssemblyReference.cache
+D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.csproj.SuggestedBindingRedirects.cache
+D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.Reportes.FrmVentasDatafonos.resources
+D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.csproj.CoreCompileInputs.cache
+D:\PROYECTOS\LJ\Operaciones\Operaciones\obj\Debug\Operaciones.csproj.CopyComplete
+D:\PROYECTOS\LJ\Operaciones\Operaciones\bin\Debug\FontAwesome.Sharp.dll

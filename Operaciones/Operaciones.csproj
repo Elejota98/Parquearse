@@ -48,6 +48,9 @@
     <Reference Include="EGlobalT.Device.Tools">
       <HintPath>..\..\..\PARQUEARSE\Megamall\Operaciones\Operaciones\EGlobalT.Device.Tools.dll</HintPath>
     </Reference>
+    <Reference Include="FontAwesome.Sharp, Version=6.1.1.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.6.1.1\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
     <Reference Include="GS.Apdu">
       <HintPath>C:\Users\LJ\Desktop\DummyACR122\LectorDevice\bin\Debug\GS.Apdu.dll</HintPath>
     </Reference>
@@ -62,12 +65,15 @@
     </Reference>
     <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
     <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Configuration">
       <HintPath>..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Configuration.dll</HintPath>
     </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -77,6 +83,7 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Autorizaciones\FrmAutorizado.cs">
@@ -180,6 +187,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Reportes\FrmSaldoEnLinea.resx">
       <DependentUpon>FrmSaldoEnLinea.cs</DependentUpon>
@@ -192,6 +200,7 @@
     <EmbeddedResource Include="Seguridad\FrmCopiaBd.resx">
       <DependentUpon>FrmCopiaBd.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -229,12 +238,17 @@
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Modelo\Modelo.csproj">
       <Project>{7e1479d0-7e59-4c5a-972d-bbffa541358c}</Project>
       <Name>Modelo</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoLogin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoLogin1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
