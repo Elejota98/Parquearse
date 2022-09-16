@@ -69,5 +69,34 @@ namespace Controlador
             }
 
         }
+
+        public DataTable ListarDatosConfiguracion()
+        {
+
+            SqlDataReader Resultado;
+            DataTable tabla = new DataTable();
+            SqlConnection sqlcon = new SqlConnection();
+
+            try
+            {
+                sqlcon = Controlador.ConexionController.getInstancia().CrearConexion();
+                string cadena = ("Select * from T_Configuracion");
+                SqlCommand comando = new SqlCommand(cadena, sqlcon);
+                sqlcon.Open();
+                SqlDataReader rta = comando.ExecuteReader();
+                tabla.Load(rta);
+                return tabla;
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                if (sqlcon.State == ConnectionState.Open) sqlcon.Close();
+            }
+        }
     }
 }

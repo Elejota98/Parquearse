@@ -152,6 +152,12 @@
     <Compile Include="Reportes\FrmVentasDatafonos.Designer.cs">
       <DependentUpon>FrmVentasDatafonos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Seguridad\FrmActualizarMac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seguridad\FrmActualizarMac.Designer.cs">
+      <DependentUpon>FrmActualizarMac.cs</DependentUpon>
+    </Compile>
     <Compile Include="Seguridad\FrmCopiaBd.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -197,6 +203,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Reportes\ReportSaldoEnLinea.rdlc" />
     <EmbeddedResource Include="Reportes\ReportVentasDatafono.rdlc" />
+    <EmbeddedResource Include="Seguridad\FrmActualizarMac.resx">
+      <DependentUpon>FrmActualizarMac.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Seguridad\FrmCopiaBd.resx">
       <DependentUpon>FrmCopiaBd.cs</DependentUpon>
     </EmbeddedResource>
@@ -249,6 +258,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\FondoLogin1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoLogin2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoLogin3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoLoginPubliidad.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoLoginPubliidad.fw1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoLoginPubliidad.fw2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoInicio.fw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FondoInicio.fw1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -288,6 +288,18 @@ namespace Operaciones
                 BtnAutorizados.Enabled = false;
                 BtnActualizarFechaCorte.Enabled = false;
             }
+            else if ((this.Cargo.ToString() == "AUXILIAR DE SERVICIOS"))
+            {
+                BtnFacturacion.Enabled = false;
+                BtnResoluciones.Enabled = false;
+                BtnAnulaciones.Enabled = false;
+                BtnReportes.Enabled = true;
+                BtnSaldoEnLinea.Enabled = true;
+                BtnReportePatios.Enabled = true;
+                BtnReporteDatafonos.Enabled = true;
+                BtnAutorizados.Enabled = false;
+                BtnActualizarFechaCorte.Enabled = false;
+            }
 
             else
             {
@@ -332,6 +344,18 @@ namespace Operaciones
             hideSubmenu();
             PanelTitulo.Visible = true;
             lblTitulo.Text = btnCopiaBd.Text;
+        }
+
+        
+
+        private void PanelLogo_MouseClick(object sender, MouseEventArgs e)
+        {
+            activeform.Close();
+        }
+
+        private void button1_Click_3(object sender, EventArgs e)
+        {
+
         }
         
     }

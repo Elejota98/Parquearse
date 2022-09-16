@@ -25,6 +25,4 @@ C:\PROYECTOS\Operaciones\Controlador\bin\Debug\Variable.pdb
 C:\PROYECTOS\Operaciones\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache
 C:\PROYECTOS\Operaciones\Controlador\obj\Debug\Controlador.dll
 C:\PROYECTOS\Operaciones\Controlador\obj\Debug\Controlador.pdb
-D:\PROYECTOS\LJ\Operaciones\Controlador\obj\Debug\Controlador.csproj.AssemblyReference.cache
-D:\PROYECTOS\LJ\Operaciones\Controlador\obj\Debug\Controlador.csproj.CoreCompileInputs.cache
-D:\PROYECTOS\LJ\Operaciones\Controlador\obj\Debug\Controlador.csproj.CopyComplete
+D:\PROYECTOS\LJ\Operaciones\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache

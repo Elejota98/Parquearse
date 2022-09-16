@@ -88,6 +88,11 @@ namespace Operaciones.Login
 
         private void iconButton1_Click(object sender, EventArgs e)
         {
+        
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
             try
             {
                 DataTable Tabla = new DataTable();
@@ -121,5 +126,8 @@ namespace Operaciones.Login
             }
         }
     }
-    }
+
+
+ 
+}
 

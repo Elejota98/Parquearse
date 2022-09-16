@@ -31,14 +31,8 @@ namespace Operaciones.Autorizaciones
 
         }
 
-        private void BtnBuscar_Click(object sender, EventArgs e)
-        {
-            this.BuscarAutorizado();
-
-        }
-
         #region BuscarAutorizado
-        public void BuscarAutorizado()
+        public void ListarAutorizado()
         {
             if (TxtDocumento.Text == string.Empty && TxtPlaca1.Text == string.Empty && TxtPlaca2.Text == string.Empty)
             {
@@ -95,10 +89,7 @@ namespace Operaciones.Autorizaciones
 
         }
 
-        private void BtnActualizar_Click(object sender, EventArgs e)
-        {
-            
-        }
+     
         private void MensajeOk(string Mensaje)
         {
             MessageBox.Show(Mensaje, "Parquearse Tecnología", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -126,7 +117,7 @@ namespace Operaciones.Autorizaciones
                 if (Rta.Equals("OK"))
                 {
                     this.MensajeOk("Fecha Actualizada Correctamente");
-                    this.BuscarAutorizado();
+                    this.ListarAutorizado();
 
                 }
                 else
@@ -281,7 +272,7 @@ namespace Operaciones.Autorizaciones
 
         private void BtnBuscar_Click_2(object sender, EventArgs e)
         {
-            BuscarAutorizado();
+            ListarAutorizado();
         }
 
         private void DgvListado_CellDoubleClick_1(object sender, DataGridViewCellEventArgs e)
@@ -305,6 +296,37 @@ namespace Operaciones.Autorizaciones
             //TxtPlaca3P.Enabled = false;
             ////DtmFechaInicio.Enabled = false;
             ////TxtAutorizacionP.Enabled = false;
+        }
+
+        private void BtnActualizar_Click_2(object sender, EventArgs e)
+        {
+            try
+            {
+                string Rta = "";
+
+
+                Rta = MAutorizado.ActualizarAutorizado(TxtDocumentoP.Text.Trim(), Convert.ToInt32(cboAutorizaciones.SelectedValue.ToString()), TxtNombresP.Text, TxtnombreEmpresa.Text, TxtNit.Text, DtmFechaInicio.Text, DtmFechaFin.Text, txtTelefono.Text, txtCorreo.Text, txtPlaca1p.Text, txtPlaca2p.Text, TxtPlaca3P.Text, txtPlaca4.Text);
+
+                if (Rta.Equals("OK"))
+                {
+                    this.MensajeOk("Datos Actualizados Correctamente");
+                    ListarAutorizado();
+
+                }
+                else
+                {
+                    this.MensajeError(Rta);
+                }
+            }
+
+
+
+
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Hubo un error en el momento de actualizar el registro" + ex.Message);
+            }
         }
     }
 }
