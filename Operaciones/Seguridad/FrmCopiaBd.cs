@@ -11,9 +11,9 @@ using Modelo;
 
 namespace Operaciones.Seguridad
 {
-    public partial class txtRuta : Form
+    public partial class FrmCobiaBd : Form
     {
-        public txtRuta()
+        public FrmCobiaBd()
         {
             InitializeComponent();
         }

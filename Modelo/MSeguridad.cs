@@ -19,11 +19,16 @@ namespace Modelo
             Controlador.SeguridadController Datos = new Controlador.SeguridadController();
             return Datos.ListarBaseDeDatos();
         }
-
         public static DataTable ListarConfiguracion()
         {
             Controlador.SeguridadController Datos = new Controlador.SeguridadController();
             return Datos.ListarDatosConfiguracion();
+        }
+
+        public static string ActualizarDatosConfiguracion(string idModulo, string Ip, string Mac, string Carril, string idTipoModulo)
+        {
+            Controlador.SeguridadController Datos = new Controlador.SeguridadController();
+            return Datos.ActualizarDatosConfiguracion(idModulo, Ip, Mac, Carril, idTipoModulo);
         }
     }
 }

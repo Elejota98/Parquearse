@@ -340,7 +340,7 @@ namespace Operaciones
 
         private void button1_Click_2(object sender, EventArgs e)
         {
-            AbrirFormularioHijo(new txtRuta());
+            AbrirFormularioHijo(new FrmCobiaBd());
             hideSubmenu();
             PanelTitulo.Visible = true;
             lblTitulo.Text = btnCopiaBd.Text;
@@ -355,7 +355,10 @@ namespace Operaciones
 
         private void button1_Click_3(object sender, EventArgs e)
         {
-
+            AbrirFormularioHijo(new FrmActualizarMac());
+            hideSubmenu();
+            PanelTitulo.Visible = true;
+            lblTitulo.Text = btnActualizarMac.Text;
         }
         
     }

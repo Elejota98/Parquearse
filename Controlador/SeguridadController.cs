@@ -80,7 +80,7 @@ namespace Controlador
             try
             {
                 sqlcon = Controlador.ConexionController.getInstancia().CrearConexion();
-                string cadena = ("Select * from T_Configuracion");
+                string cadena = ("Select * from T_Configuracion ORDER BY IdModulo");
                 SqlCommand comando = new SqlCommand(cadena, sqlcon);
                 sqlcon.Open();
                 SqlDataReader rta = comando.ExecuteReader();
@@ -97,6 +97,33 @@ namespace Controlador
             {
                 if (sqlcon.State == ConnectionState.Open) sqlcon.Close();
             }
+        }
+
+        public string ActualizarDatosConfiguracion(string idModulo, string Ip, string Mac, string Carril, string idTipoModulo)
+        {
+
+            string Rta = "";
+            SqlConnection sqlcon = new SqlConnection();
+            try
+            {
+                sqlcon = ConexionController.getInstancia().CrearConexion();
+                string cadena = ("UPDATE T_Configuracion set IP='"+Ip+"', Mac='"+Mac+"', Carril='"+Carril+"', IdTipoModulo='"+idTipoModulo+"' WHERE IdModulo='"+idModulo+"'");
+                SqlCommand comando = new SqlCommand(cadena, sqlcon);
+                sqlcon.Open();
+                comando.ExecuteNonQuery();
+                Rta = "OK";
+
+            }
+            catch (Exception ex)
+            {
+
+                Rta = ex.Message;
+            }
+            finally
+            {
+                if (sqlcon.State == ConnectionState.Open) sqlcon.Close();
+            }
+            return Rta;
         }
     }
 }
